@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TugasJS</title>
+</head>
+<body>
+    <h1>tugas JS1</h1>
+    <h4>Contoh If ,else , nested if</h4>
+    <p>masukan nama orang yang anda suka: </p>
+    <form action="" id="tebakJodoh">
+        <input type="text" name="nama" id="nama">
+        <button type="button" onclick="prosesTebakJodoh()">submit</button>
+    </form>
+    <textarea id="outputTebakJodoh" rows="4" cols="50" readonly></textarea>
+
+    <h4>Contoh Switch case</h4>
+    <p>milih kopi : </p>
+    <form action="" id="kopi">
+        <label for="kopis">pilih kopi</label>
+        <select name="kopis" id="kopis">
+            <option value="gooday" id="gooday">Gooday</option>
+            <option value="kapal" id="kapal">Kapal Api</option>
+            <option value="abc" id="abc">ABC susu</option>
+        </select>
+        <button type="button" onclick="prosesCetakHarga()">submit</button>
+    </form>
+    <textarea id="output2" rows="4" cols="50" readonly></textarea>
+
+    <h4>contoh menggunakan for</h4>
+    <p>masukan huruf yang ingin cetak</p>
+    <form action="" id="cetakHuruf">
+        <input type="text" id="huruf">
+        <button type="button" onclick="prosesCetak()">submit</button>
+    </form>
+    <textarea id="output3" rows="4" cols="50" readonly></textarea>
+
+    <h4>contoh menggunakan while & do while</h4>
+    <p>mencetak huruf menggunakan while</p>
+    <form action="" id="cetakText">
+        <input type="text" id="text" placeholder="masukan kata:">
+        <input type="number" id="angka" placeholder="masukan angka: ">
+        <button type="button" onclick="prosesCetakWhile()">submit</button>
+    </form>
+    <textarea id="output4" rows="4" cols="50" readonly  ></textarea>
+
+    <p>membuat password menggunakan do while</p>
+    <form action="" id="tebakSandi">
+        <input type="password" id="password" placeholder="password: "><br>
+        <input type="password" id="passwordBaru" placeholder="konfirmasi password"><br>
+        <button type="button" onclick="prosesCetakDoWhile()">submit</button>
+    </form>
+    <textarea id="output5" rows="4" cols="50" readonly  ></textarea>
+
+    <script src="main.js"></script>
+</body>
+</html>
